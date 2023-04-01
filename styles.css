@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(6, 4, 4);
+}
+
+h1{
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    font-size: 70px;
+}
+
+p{
+    color:whitesmoke;
+}
+
+
+button{
+    border: 3px goldenrod solid;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: #570000;
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+}
+
+button:active{
+    width: 75px;
+    height: 37px;
+    font-size: 13px;
+}
+
+
+.Convert{
+    position: absolute;
+    top: 49.2%;
+    left: 45%;
+    right: 55%;
+}
+
+.Convert:active{
+    position: absolute;
+    top: 50%;
+    left: 45.1%;
+}
+
+.copy{
+    position: absolute;
+    top: 70%;
+    bottom: 30%;
+    left: 60%;
+    right: 40%;
+}
+.copy:active{
+    position: absolute;
+    top: 70.2%;
+    left: 60.1%;
+}
+
+
+input{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    left: 25%;
+    padding-right: 0.5%;
+    right: 70%;
+    width: 12%;
+    height: 20px;
+    background-color: goldenrod;
+    font-family: monospace;
+    font-size: medium;
+    border: 3px goldenrod solid;
+}
+
+
+.result{
+    position:absolute;
+    top:47.5%;
+    bottom:52.5%;
+    left:59.5%;
+    font-size: 27px;
+}
+
+.explanation{
+    position: absolute;
+    top: 85%;
+    right:60%;
+    left:5%;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.creator{
+    position: absolute;
+    top:92%;
+    bottom: 5%;
+    font-size: 10px;
+    left: 92%;
+    right: 5%;
+}
